@@ -3,7 +3,7 @@ function analyzeArray(arr){
     const min = Math.min(...arr);
     const max = Math.max(...arr);
     const length = arr.length;
-    return `average: ${avg}, min: ${min}, max: ${max}, length: ${length};`
+    return {average: avg, min: min, max: max, length: length}
 }
 
 module.exports = analyzeArray;
